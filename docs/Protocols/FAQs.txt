@@ -1,0 +1,79 @@
+1. How do I begin digitizing OWRI projects?
+
+
+Answer:
+
+•         Open an ArcMap document
+
+•         Click the "Add Data" button
+
+•         Select MappingTemplates.gdb
+
+•         Select OWRI and click Add
+
+•         In the Editor toolbar, Choose Start Editing from the drop down list.
+
+•         Select OWRI_points, OWRI_lines, OWRI_polygons
+
+•         In ArcGIS 10, a digitizing window will show up on the right-hand side and you can use whichever construction tool you want to start digitizing.
+
+
+You can create your points, lines, polygon, directly in ArcMap because the template has already been created for you.
+
+
+2. How can I locate things with township and range information. Is there a way to quickly locate a place in ArcMap using township and range?
+
+
+
+Answer:
+
+•         In ArcMap, Click on Selection
+
+•         Choose, Select by Attributes
+
+•         In pop-up box, choose plss layer
+
+•         Click on Load… button
+
+•         Browse to location of the “TRS_plss_version.exp” file attached. Click Open button
+
+•         In the expression box, modify the expression for whatever township, range, section you want.
+
+•         Click on Apply button and that polygon will be selected
+
+
+(Alternatively, you can open the Attribute table for the plss layer, Click Select by Attributes, Click on Load...button, and follow the rest of the directions.)
+
+3.  Should we plan to divide up the work found in the spreadsheets between the students, or are we doing the same digitizing in parallel?
+
+
+
+Plan on dividing up the work. Currently there are three students working on the OWRI projects, Tasha, Mike and D'Anne.
+
+
+
+4.  Do we know what form our output should take?  Should I be saving my work as an MXD file, or do we edit the geodatabase somehow?
+
+
+
+You will be delivering your spreadsheets (with any comments/questions you have for Ashley) and your updated geodatabase. Your geodatabase should have your lastname and date at the end of the file name.
+
+
+
+Answer from Kuuipo: Save your work by editing the Template geodatabase. See Mike’s first question above on how to do that. You will also save your work by updating the spreadsheets, if needed! (see next question).
+
+
+
+5. Question:
+
+It appears that the template layers are all we need. Do you know of any reason why we would need the non- template OWRI points, lines, and polygons?
+
+
+
+Answer:  Occasionally projects may get reported to OWRI more than once by a respondent.  Once the location of the project is found; use the non-template OWRI points, lines, polygons to check if there are other projects nearby that look suspiciously like the features that you are about to map. Add a comment in the spreadsheet and note the project numbers or project ids. An OWEB project manager will verify whether or not the projects are actually duplicates. Also feel free to comment in the spreadsheet if you have a question about a project.
+
+6: What is the scale for our digitization?
+
+Answer: The scale for digitization will change based on the reference map provided by the grantees and the size/scale of the project so it is difficult to set a preferred scale to use under all circumstances.  Under the fish passage activity on the OWRI mapping protocols the recommended scale is between 1:12,000 and 1:1,200.  For a single fish passage point, the scale is going to be much larger than a project in which a line is placed on the centerline of the stream.  For one, we need much higher accuracy and precision with fish passage points and two the trace feature can be used on the stream layer so you can be confident in the accuracy of the data at a much smaller scale.  
+
+

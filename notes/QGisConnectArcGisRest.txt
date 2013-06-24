@@ -1,0 +1,25 @@
+http://hub.qgis.org/wiki/17/Arcgis_rest
+
+Connecting to ArcGIS "mapserver" layers
+Although Arcgis servers can be configured to provide WMS and WFS services, they are often only configured to provide REST and SOAP services.
+
+Raster arcgis "mapserver" layers
+It is possible to connect to these layers in QGIS via the REST interface.
+Firstly (and the most difficult part) you need to find the URL for the REST service for your layer. E.g. you might want to use a layer that is available in the ESRI "Maps for Personal Use" web map at: http://www.arcgis.com/home/webmap/viewer.html?useExisting=1
+Hopefully with a little googling you will be able to find the address where you can browse the "ArcGIS services directory" of your favourite ArcGIS server. In this case it is: http://server.arcgisonline.com/ArcGIS/rest/services/
+
+Find the layer that you want, copy the url for the REST service, and now you have at least two options:
+1. In the QGIS Python console, run this:
+qgis.utils.iface.addRasterLayer("http://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer?f=json&pretty=true","raster")
+2. Create a gdal service description file, e.g. by running this in a terminal:
+gdal_translate "http://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer?f=json&pretty=true" s.xml -of WMS
+You can now load this file into QGIS, e.g. by drag-and-drop.
+
+Vector arcgis "mapserver" layers, "globeserver" layers and "featureserver" layers
+There is no known way to connect to these layers via the REST interface.
+
+For Oregon Explorer:
+
+gdal_translate "http://imagery.oregonexplorer.info/arcgis/services" OregonExplorer.xml -of WMS
+
+hmm does not work...
