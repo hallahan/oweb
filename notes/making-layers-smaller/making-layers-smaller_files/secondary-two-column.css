@@ -1,0 +1,47 @@
+/* secondary page CSS classes: Two-Column Layout (e.g., pages with left navigation menu) */
+
+#container { /* box that holds columns */
+	width: 900px;
+	padding: 8px 4px 0px 4px;
+}
+#columns { /* box added to help with equal column-length layout */
+	padding-left: 158px;
+}
+#leftColumn {
+	float: left;
+	width: 156px;
+	margin-left: -158px;
+	border-right: 2px solid #102071;
+	position: relative;
+}
+#leftColumnContent { /* box added to make it easier to pad left column content */
+	padding: 2px 15px 0px 4px;
+}
+#breadcrumb { /* box holding the breadcrumbs */
+	width: 720px;
+	font-size: 90%;
+	font-weight: bold;
+	padding: 4px 0px 4px 15px;
+}
+#rightColumn {
+	float: right;
+	width: 100%;
+	margin-left: -2px;
+	border-left: 2px solid #102071;
+	position: relative;
+}
+#contentBox {
+	margin: 8px 0px 0px 15px;
+}
+@media print {
+	#columns {
+		padding-left: 0px;
+	}
+	#rightColumn {
+		border-left: none;
+	}
+        #leftColumn { border-right: none; }
+}
+#shareThis{
+        text-align:center;
+}

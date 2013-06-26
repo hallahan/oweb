@@ -1,0 +1,444 @@
+/*	General purpose CSS classes */
+p.onePointFive {
+	line-height: 1.5em;
+}
+.pipeLinks {
+	font-weight: bold;
+	margin: .75em;
+}
+.divDottedRule {
+	border-top: 1px dotted #b2b2b2;
+}
+.clearBoth { 
+	clear: both;
+	height: 0;
+	margin: 0;
+	line-height: 0px;
+}
+.hiddenElem {
+	display: none;
+}
+.unhiddenElem {
+	display: block;
+}
+/* unordered list without dots */
+ul.listNoDots { 
+	list-style-type: none;
+	list-style-image: none;
+	padding: 0;
+	margin: 0;
+}
+ul.listNoDots li {
+	text-indent: -1em;
+	padding-left: 1em;
+}
+ul.listNoIndent li {
+	text-indent: 0;
+}
+/* left-justified list */
+.listLeftJustified {
+	list-style-position: inside;
+	list-style-image: none;
+	margin: 1em 0;
+	padding: 0;	
+}
+.listLeftJustified li {
+	text-indent: -1em;
+	padding-left: 1em;
+}
+ul.listLeftJustified {
+	list-style-type: disc;
+}
+ol.listLeftJustified {
+	list-style-type: decimal;
+}
+/* left-justified flush list, also feed lists in grids */
+ul.listLeftJustifiedFlush, div.container_16 ul.feedItemList {
+	list-style-position: inside;
+	list-style-image: none;
+	margin: 1em 0;
+	padding: 0;	
+}
+ul.listLeftJustifiedFlush li, div.container_16 li.feedItem {
+	text-indent: 0;
+	padding-left: 0;
+	margin: 0 0 1em 0 !important;
+}
+ul.tinySpacedItems li, ol.tinySpacedItems li {
+	margin-bottom: .25em;
+}
+ul.smallSpacedItems li, ol.smallSpacedItems li {
+	margin-bottom: .5em;
+}
+ul.mediumSpacedItems li, ol.mediumSpacedItems li {
+	margin-bottom: 1em;
+}
+ul.bigSpacedItems li, ol.bigSpacedItems li {
+	margin-bottom: 1.5em;
+}
+ul.featureNav li { /* style for use with lists of navigation links in feature boxes */
+	margin-bottom: .25em;
+	margin-left: -1.25em;
+}
+
+
+
+div.pdf {
+    background: url("/imgs/common/icons/pdficon_small.gif") no-repeat scroll left top transparent;
+    padding-left: 22px;
+}
+
+.dotted {
+	border: none;
+	border-top: dotted 1px #ccc;
+	margin-bottom: 10px;
+}
+
+/* hinted text boxes */
+input.hinted { color: #888;}
+/* general style for tabular data */
+table.dataTable { 
+	border-collapse: collapse;
+	border: 1px solid #003366;
+}
+/* use caption element for table title 
+	 (helps screen readers associate title w/ table) */
+table.dataTable caption {
+	font-size: 14px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-align: left;
+	font-weight: bold;
+	padding-top: 1em;
+	padding-bottom: .5em;
+	color: #003366;
+}
+table.dataTable td {
+	text-align: left;
+	vertical-align: text-top;
+	padding: 0.25em;
+	page-break-inside: avoid;
+}
+table.dataTable td a:link,
+table.dataTable td a:active,
+table.dataTable td a:visited {
+	text-decoration: none;
+}
+table.dataTable td a:hover {
+	text-decoration: underline;
+}
+table.dataTable th {
+	color: #fff;
+	background-color: #003366;
+	border-color: #003366;
+	border-width: 1px 0;
+	border-style: solid;
+	text-align: left;
+	vertical-align: bottom;
+	padding: 0.25em;
+}
+table.dataTable th a:link,
+table.dataTable th a:active,
+table.dataTable th a:visited,
+table.dataTable th a:hover {
+	color: #fff;
+	background-color: transparent;
+	text-decoration: underline;
+}
+table.dataTable tr {
+	page-break-inside: avoid;
+}
+table.dataTable tr.odd td {
+	background-color: #eee;
+}
+table.dataTable .innerBorder td {
+	border: 1px solid #808080;
+}
+/* 2-column table with headings in left column */
+table.leftHeadings th {
+	text-align: left;
+	vertical-align: top;
+	padding: 0.25em 0.5em 0.25em 0;
+}
+table.leftHeadings td {
+	vertical-align: top;
+	padding: 0.25em 0 0.25em 0.5em;
+}
+/* contact info table */
+table.contactInfoTable th,
+table.contactInfoTable td {
+	padding: 0.25em 0;
+	vertical-align: bottom;
+	border-bottom: 1px dashed #808080;	
+}
+table.contactInfoTable th {
+	text-align: left;
+	padding-right: 0.25em;
+}
+table.contactInfoTable td {
+	text-align: right;
+	padding-left: 0.25em;
+}
+table.contactInfoTable caption {
+	font-weight: bold;
+}
+.center { text-align: center; }
+.bold { font-weight: bold; }
+.smaller { font-size: 90%; }
+.larger { font-size: 110%; }
+.italic { font-style: italic; }
+.normal {
+	font-weight: normal;
+	font-style: normal;
+}
+.full_width { width: 100%; }
+.right { text-align: right; }
+.left { text-align: left; }
+.bottom { vertical-align: bottom; }
+.top { vertical-align: text-top; }
+.middle { vertical-align: middle; }
+.nowrap { white-space: nowrap; }
+.upper { text-transform: uppercase; }
+.noBorder { border: none !important; }
+.greyBox { /* section with grey background */
+	background-color: #e6e6e6;
+	color: Black;
+	padding: 10px;
+	margin: 1em 0;
+	border: 1px solid #003366;
+}
+.greyBox h3 {
+	margin-top: 0em;
+}
+.sectionColoredBox { /* generic box using section colors */
+	border: 1px solid #003366;
+	background-color: #e6e6e6;
+	padding: 0.5em 1em;
+}
+.alertBox {
+	background-color: #fbfbf9;
+	border: 1px solid #ff0033;
+	margin-bottom: 10px;
+	padding: 5px 10px 5px 10px;
+}
+.alertBox h1, .alertBox h2, .alertBox h3, .alertBox h4, .alertBox h5 {
+	font-size: 110%;
+	color: #ff0033;
+	text-transform: uppercase;
+	background: url(/imgs/common/icons/alert-sign.gif) no-repeat top left;
+	padding: 2px 0px 5px 25px;
+}
+/* CSS for term cloud boxes on digital collection contextual pages */
+.termBox { 
+	margin: 10px 0 10px 0;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #b2b2b2;
+}
+.termBoxTitle { 
+	border-bottom-color: #b2b2b2;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	color: #003366;
+	background-color: #f2f1ec;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	padding: 5px 10px;
+}
+.termBoxContent { 
+	padding: 10px;
+	font-size: 11px;
+}
+.termBoxContent a {
+	text-decoration: none;
+}
+.featureBox { 
+	width: 225px;
+	float: right;
+	clear: right;
+	margin-left: 1em;
+	margin-bottom: 1em;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #003366;
+}
+.featureBoxTitle { 
+	border-bottom-color: #003366;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	color: #003366;
+	background-color: #e6e6e6;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	padding: 5px 10px;
+}
+.featureBoxContent { 
+	padding: 10px;
+	font-size: 11px;
+}
+.featureBoxContent > p { /* first paragraph */
+	margin-top: 0;
+}
+
+
+
+
+@media print {
+	.featureBox {
+		border: 1px solid #000;
+	}
+	.featureBoxTitle {
+		border-bottom: 1px solid #000;
+		color: Black;
+		background-color: White;
+	}
+}
+.error { 
+	color: #880000;
+	font-weight: bold;
+}
+/* JSP error messages */
+.errormsgs { border: 2px solid red; }
+.errormsgs li { color: red; }
+.indentLeftSmall { margin-left: .5em; }
+.indentLeftMedium { margin-left: 1em; }
+.indentLeftLarge { margin-left: 2em; }
+.photoCaption { text-align: center; margin-top: 2px; font-size: 90%; font-weight: bold; }
+.imageTopLeft {
+	float: left;
+	clear: left;
+	position: relative;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+.imageTopRight {
+	float: right;
+	clear: right;
+	position: relative;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+.imageMiddleRight {
+	float: right;
+	clear: right;
+	position: relative;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+.imageMiddleLeft {
+	float: left;
+	clear: left;
+	position: relative;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+.imageBottomLeft {
+	float: left;
+	clear: left;
+	position: relative;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+.imageBottomRight {
+	float: right;
+	clear: right;
+	position: relative;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+.redlink a:link, .redlink a:active, .redlink a:visited { color: #880000; }
+.redlink a:hover { color: #be0505; }
+.linksUnderlineOnHover a:link,
+.linksUnderlineOnHover a:visited {
+	text-decoration: none;
+}
+.linksUnderlineOnHover a:hover,
+.linksUnderlineOnHover a:active {
+	text-decoration: underline;
+}
+#contextMenu {
+	margin-bottom: 1.5em;
+}
+#contextMenu li {
+	margin-bottom: 0.3em;
+}
+#contextMenu .menuHeading {
+	font-weight: bold;
+	font-size: 110%;
+}
+#contextMenu .menuItem {
+	font-weight: bold;
+	margin-left: 0.5em;
+}
+#contextMenu .menuSubitem {
+	font-weight: normal;
+	margin-left: 1em;
+	font-size: 90%;
+}
+#contextMenu .menuSpacer {
+	line-height: 0.75em;
+}
+.noTopMargin { margin-top: 0; }
+.printOnly { display: none; }
+.darkGrey { color: #808080; }
+dl.strongDefList dt {
+	font-weight: bold;
+}
+dl.strongDefList dd {
+	margin-bottom: 1em;
+}
+.rssLink a:link,
+.rssLink a:hover,
+.rssLink a:active,
+.rssLink a:visited {
+	background-color: #ffa500;
+	border: 1px outset #999;
+	color: White !important;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 0.1em 0.5em;
+	text-decoration: none;
+	line-height: 1.5em;
+}
+#helpful {
+	border-top: 1px solid #050d5e;
+}
+
+.mobileOnly {display: none; }
+@media print {
+	.dontPrint {
+		display: none;
+	}
+	div.printOnly {
+		display: block;
+	}
+	table.printOnly {
+		display: table;
+	}
+	tr.printOnly {
+		display: table-row;
+	}
+	td.printOnly, th.printOnly {
+		display: table-cell;
+	}
+	span.printOnly {
+		display: inline;
+	}
+	.printNoWidth {
+		width: 0 !important;
+	}
+	.printNoWidth * {
+		display: none;
+	}
+	.printFullWidth {
+		width: 100% !important;
+	}
+	.dontPrintLinks a:link,
+	.dontPrintLinks a:visited {
+		text-decoration: none;
+	color: #000;
+	}
+}

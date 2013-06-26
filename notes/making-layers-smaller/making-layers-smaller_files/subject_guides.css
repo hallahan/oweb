@@ -1,0 +1,134 @@
+/* CSS Subject Guides pages */
+
+#sidebarExtra {
+   margin-top: 1em;
+}
+/* Feature box(es) */
+#subjGuideFeatures {
+   float: right;
+   clear: right;
+   width: 180px;
+   margin-left: 1em;
+   margin-bottom: 1em;
+}
+.featureBox {
+   float: none;
+   width: auto;
+   clear: none;
+   margin: 0;
+}
+.featureBoxImage {
+   text-align: center;
+   margin: 10px 0;
+}
+.featureBoxContent {
+   font-size: 11px;
+}
+#featureBox2 {
+   margin-top: 2em;
+}
+#featureBox2 .featureBoxTitle {
+   color: white;
+   background-color: #003366;
+}
+/* TOC menu */
+#sidebarMain {
+   border: 1px solid #003366; 
+}
+#subjGuideMenu {
+   padding: 0.25em 0.25em 0.25em 0.25em;
+}
+#subjGuideMenu h2 { /* menu title */
+   font-size: 13px;
+   font-weight: bold;
+   text-align: center;
+   margin: 0.5em 0 0.5em 0;
+   color: #003366;
+}
+#subjGuideToc { /* the menu */
+   list-style: none;
+   list-style-image: none;
+   margin: 0.5em 0;
+   padding: 0;
+}
+#subjGuideMenu li { /* menu items */
+   background-repeat: no-repeat;
+   background-position: 0 0;
+   margin-bottom: 0.5em;
+   padding-left: 17px;
+   font-size: 90%;
+   line-height: 135%;
+}
+.subjGuideMenuFolder { /* folder menu items */
+   background-image: url(http://library.duke.edu/imgs/common/icons/folder.gif); 
+}
+.subjGuideMenuPage { /* page menu items */
+   background-image: url(http://library.duke.edu/imgs/common/icons/page.gif);
+}
+.subjGuideMenuLink { /* link menu items */
+   background-image: url(http://library.duke.edu/imgs/common/icons/externalsite.gif);
+}
+.subjGuideMenuLevel1 { /* 1st sublevel */
+   margin-left: 12px;
+}
+.subjGuideMenuLevel2 { /* 2nd sublevel */
+   margin-left: 24px;  
+}
+.subjGuideMenuLevel3 { /* 3rd sublevel */
+   margin-left: 36px;  
+}
+.subjGuideMenuLevel4 { /* 4th sublevel */
+   margin-left: 48px;  
+}
+#subjGuideMenuCurrent { /* current item */
+   font-weight: bold;
+}
+#subjGuideContact { /* sidebar contact link */
+   font-size: 90%;
+   padding-left: 17px;
+   background-image: url(http://library.duke.edu/imgs/common/icons/mail.gif);
+   background-repeat: no-repeat;
+   background-position: 0 50%;
+   margin-top: 1.5em;
+   font-style: italic;
+}
+
+/* Subject Librarian info */
+.subjGuideLibrarian {
+   margin: 1em;
+}
+.subjGuideLibrarian img {
+   float: left;
+   margin-right: 1em;
+   margin-bottom: 1em;
+}
+.subjGuideLibrarian h2 {
+   font-size: 12px;
+   font-weight: bold;
+   margin: 0;
+}   
+.subjGuideLibrarian p {
+   font-size: 90%;
+   margin: 0.2em;  
+}
+.subjGuidePageContent {
+   clear: left;
+   margin-top: 1em;
+}
+
+/* Search form */
+#subjGuideSearch {
+   margin: 2em 0 1em 0;
+   padding: 0;
+}
+#siteSearchForm {
+	font-size: 90%;
+}
+#siteSearchBox {
+	width: 90px;
+	vertical-align: middle;
+}
+#ss-btnG {
+	margin-left: 3px;
+	vertical-align: middle;
+}

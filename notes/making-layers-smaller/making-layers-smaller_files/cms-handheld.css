@@ -1,0 +1,62 @@
+/* CSS for mobile devices for main CMS web pages */
+body { color: black; background-color: white; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: small; }
+hr { width: 100%; height: 1px; color: #e6e6e6; }
+h1 { color: #003366; background-color: white; font-size: medium; font-weight: bold; }
+h2 { color: #003366; background-color: white; font-size: medium; font-weight: normal; }
+h3 { font-size: small; font-weight: bold; }
+h4 { font-size: small; font-style: italic; }
+a:link, a:active { text-decoration: underline; border: 0; color: #003366; background-color: white; }
+a:visited { text-decoration: underline; border: 0; color: #336699; background-color: white; }
+a:hover { text-decoration: underline; border: 0; color: #336699; background-color: #eaeaff; }
+.bold { font-weight: bold; }
+.italic { font-style: italic; }
+.normal { font-weight: normal; font-style: normal; }
+.smaller { font-size: x-small; }
+.small { font-size: x-small; }
+.center { text-align: center; }
+.right { text-align: right; }
+.left { text-align: left; }
+.bottom { vertical-align: bottom; }
+.top { vertical-align: text-top; }
+.middle { vertical-align: middle; }
+.nowrap { white-space: nowrap; }
+.upper { text-transform: uppercase; }
+.clearBoth {  clear: both; height: 0; margin: 0; line-height: 0px; }
+.full_width { width: 100%; }
+.noBorder { border: none !important; }
+#mobileMasthead { font-size: medium; font-weight: bold; }
+#mobileMasthead a:link, #mobileMasthead a:visited { text-decoration: none; }
+#masthead { display: none; }
+#mastheadLinkBar { display: none; }
+#secondaryBanner { display: none; }
+#container { width: 100%; padding: 0; }
+#columns { padding: 0; }
+#breadcrumb { width: 100%; padding: 0.3em 0 0.3em 0.1em; }
+#contentBox { margin: 0; }
+#libraries { display: none; }
+#lastModified { display: block; font-size: xx-small; }
+#globalTextMenu { display: none; }
+#readingDevil { display: none; }
+#footerRegion { display: none; }
+#connectWithUs { display: none; }
+#shareThis { display: none; }
+#shareThis1 { display: none; }
+#ccCopyright { display: block; text-align: left; margin: 5px; font-size: xx-small; top: 0px; }
+#creativeCommons { display: block; text-align: left; margin: 5px; font-size: xx-small; top: 0px; }
+#mobileFooter { clear: both; font-size: xx-small; text-align: left; border-top: 1px black solid; margin-top: 3px; }
+#gallery { display: none; }
+.featureBox { clear: both; width: 95%; border: 1px solid #003366; float: none; margin: 0 auto; }
+.featureBoxTitle { background-color: #e6e6e6; border-bottom: 1px solid #003366; font-weight: bold; text-align: center; vertical-align: middle; color: #003366; padding: 5px; }
+.featureBoxContent { padding: 0.5em; }
+.divDottedRule { border-top: 1px dotted #b2b2b2; }
+.error { color: #880000; font-weight: bold; }
+.errormsgs { border: 2px solid red; }
+.errormsgs li { color: red; }
+.photoCaption { text-align: center; margin-top: 2px; font-size: 90%; font-weight: bold; }
+.noTopMargin { margin-top: 0; }
+.printOnly { display: none; }
+dl.strongDefList dt { font-weight: bold; }
+dl.strongDefList dd { margin-bottom: 0.25em; }
+.alertBox { border: 1px solid #ff0033; margin: 3px; padding: 5px; }
+.alertBox h1, .alertBox h2, .alertBox h3, .alertBox h4, .alertBox h5 { font-size: medium; color: #ff0033; text-transform: uppercase; background: url(/imgs/common/icons/alert-sign.gif) no-repeat top left; padding-left: 25px; }
+div.mobileOnly { display: block; }

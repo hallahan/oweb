@@ -1,0 +1,173 @@
+/* CSS for Library Footer */
+.dashedRule {
+	background-image: url(/imgs/blue-note/dot_line.gif);
+	background-repeat: repeat-x;
+	margin-top: 15px;
+	margin-bottom: -10px;
+}
+.librariesPipe { margin: 0 .35em; }
+#mobileFooter { display: none; }
+#shareThis {
+	text-align: center;
+	padding-top: 1em;
+	clear: both;
+}
+#globalFooter {
+	float: left;
+	clear: both;
+	width: 100%;
+	font-size: 12px;
+}
+#globalFooter a:link,
+#globalFooter a:visited,
+#globalFooter a:active {
+	color: #000000;
+	text-decoration: none;
+}
+#globalFooter a:hover {
+	color: #003366;
+	text-decoration: underline;
+}
+#libraries {
+	color: #000000;
+	font-size: 90%;
+	font-weight: bold;
+	line-height: 200%;
+	text-align: center;
+	text-decoration: none;
+	padding: 5px;
+}
+#globalTextMenu {
+	background-image: url(/imgs/blue-note/footer_nav_bkgnd.gif);
+	background-repeat: repeat-x;
+	min-height: 12px;
+	height: 1em;
+	color: #000000;
+	font-size: 90%;
+	font-weight: bold;
+	padding: 10px;
+	text-align: center;
+}
+#footerImageSpan {
+	position: relative;
+	left: 20px;
+	top: -50px;
+}
+#footerImageSpan img {
+	border: none;
+}
+#lastModified {
+	font-size: 90%;
+	text-align: center;
+	padding: 15px 0px 0px 0px;
+	margin: 0px;
+	clear: both;
+}
+#creativeCommons {
+	clear: both;
+	position: relative;
+	top: -50px;
+}
+#creativeCommonsImage { height: 31px; }
+#alternateCopyright {
+	clear: both;
+	position: relative;
+	top: -50px;
+}
+#alternateCopyright a:link,
+#alternateCopyright a:active {
+	text-decoration: underline;
+	color: #003366;
+}
+#alternateCopyright a:hover,
+#alternateCopyright a:visited {
+	text-decoration: underline;
+	color: #336699;
+}
+
+/* Connect Updates */
+#shareThis1 {
+	margin: 5px 0 0 0;
+	width: 500px;
+	float: right;
+	font-weight: bold;
+	text-align: right;
+}
+#lastModified1 {
+	font-size: 90%;
+	text-align: center;
+	padding: 5px 0px 15px 0px;
+	margin: 0px;
+	clear: both;
+}
+#footerRegion {
+	clear: both;
+	width: 100%;
+	font-size: 12px;
+}
+#footerRegion a:link,
+#footerRegion a:visited,
+#footerRegion a:active {
+	color: #000000;
+	text-decoration: none;
+}
+#footerRegion a:hover {
+	color: #003366;
+	text-decoration: underline;
+}
+#footerLinksA {
+	color: #000000;
+	font-size: 90%;
+	font-weight: bold;
+	line-height: 200%;
+	text-align: left;
+	padding: 5px;
+	clear: both;
+}
+#footerLinksB {
+	background-color: #e1dfd7;
+	border-top: 1px dotted black;
+	border-bottom: 1px dotted black;
+	color: #000000;
+	font-size: 90%;
+	font-weight: bold;
+	padding: 8px;
+	text-align: center;
+	clear: both;
+}
+#blueDevil { 
+	float: left;
+	margin: 0 15px 5px 5px;
+	width: 29px;
+	height: 55px;
+}
+#blueDevil img { border: none; }
+#connectWithUs {
+	font-weight: bold;
+	font-size: smaller;
+	text-align: left;
+	margin: 5px;
+	float: left;
+	width: 300px;
+}
+#connectWithUs img { border: none; margin-right: 8px; }
+.footerPhone { float: left; }
+#ccCopyright, #altCopyright {
+	margin: 5px 5px 0 0;
+	width: 500px;
+	float: right;
+	font-weight: bold;
+	font-size: smaller;
+	text-align: right;
+	color: #929292;
+}
+#ccCopyright a:link, #altCopyright a:link,
+#ccCopyright a:active, #altCopyright a:active {
+	text-decoration: underline;
+	color: #929292;
+}
+#ccCopyright a:hover, #altCopyright a:hover,
+#ccCopyright a:visited, #altCopyright a:visited {
+	text-decoration: none;
+	color: #336699;
+}
