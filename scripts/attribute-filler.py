@@ -1,14 +1,14 @@
 TABLE_PATH        = r"E:\oweb\git\nh-database.gdb\OWRI\OWRI_polygons"
 GIS_SOURCE        = "owri_poly"
-PROJECT_NBR       = "20120178"
-RI_PROJECT_ID     = "15159"
-ACTIVITY_TYPE     = "Wetland"
-TREATMENT_COMMENT = "Existing grass/herb meadow wetland improved; Wetland treated for non-native or noxious plant species; Wetland vegetation planted"
+PROJECT_NBR       = "20120444"
+RI_PROJECT_ID     = "15467"
+ACTIVITY_TYPE     = "Riparian"
+TREATMENT_COMMENT = "Riparian treated for non-native or noxious plant species; Riparian trees planted: hardwood; Riparian shrubs or herbaceous vegetation planted/reseeded"
 MAPPER            = "OSU-NH"
 MAPPER_CONFIDENCE = "High"
 GIS_TYPE          = "GIS Polygon Centroid"
 ANALYSIS_SCALE    = "6th Field HUC"
-ORIGIN_DATE       = "7/16/2013"
+ORIGIN_DATE       = "7/20/2013"
 
 import arcpy
 rows = arcpy.UpdateCursor(TABLE_PATH)
