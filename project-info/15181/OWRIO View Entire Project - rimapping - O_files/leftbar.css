@@ -1,0 +1,510 @@
+
+* {
+	padding: 0;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0;
+/*	height: 26px; */
+}
+.simplepage
+{
+	position:relative;
+	margin-left: 200px;
+}
+.warningbox 
+{
+	border-style: solid;
+	border-color: Red;
+	color: Black;
+}
+
+.BackColorTab
+{
+	background-color: #999966;
+}
+
+
+/*
+{
+	border-style: solid;
+	border-color: Red;
+	color: Black;
+}
+*/
+
+body {
+	font: normal small Arial, Helvetica, sans-serif;
+	color: black;
+	height: 100%;
+	width: 97%;
+	background-color: #ffffee; 
+	/*background-color: #ECE5B6;*/
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.multilinetextbox 
+{
+	font-family:Arial;
+}
+
+#sidebar {
+	float: left;
+	position: relative;
+	width: 130px;
+	padding: 20px; 
+/*	background-color: #4E9258; */
+	background-color: #999966;
+	height: 100%;
+	color: black;
+}
+
+#header {
+	width: 100%;
+	height: 40px;
+/*	background-color: #003366; */
+	background-color: #999966;
+}
+
+.headerlinks:hover 
+{
+/*	font-weight: bold; */
+/*	background-color: #ffffee; */
+	color: #ffffee;
+	text-decoration: underline;
+	/*
+	padding-left: 5px;
+	padding-right: 5px;   */
+}
+
+.selectedheaderlink 
+{
+/*	background-color: #ffffee; */
+	color: black;
+/*	font-weight:bold; */
+}
+
+.bodylinks 
+{
+	color: #003366; 
+/*	color: #cccccc; */
+	font-size: small;
+	font-style: italic;
+	padding: 5px 0 5px 0;
+}
+
+.redul 
+{
+	background-color: #ffffee;
+	font-size: small;
+	margin-left: 4em;
+	color: red;
+}
+
+.lbox
+{
+	background-color: #999966;
+}
+
+.post .meta {
+	padding: 1em;
+	border: 1px solid #656983;
+	font-size: 1em;
+	background-color: #999966;
+	color: black;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+	color: white;
+}
+
+hr 
+{
+	background-color: #999966;
+	height: 3px;
+}
+
+h2 {
+	font-size: 2em;	
+}
+
+h3 {
+	color: black; 
+}
+
+p, blockquote, ul, ol {
+	margin-bottom: 1.5em;
+}
+
+p {
+}
+
+blockquote {
+	margin-left: 3em;
+	font-style: italic;
+}
+
+ul 
+{
+	list-style-type:none;
+	margin-left: 3em;
+	color: black;
+	font-size: small;
+}
+
+ul li 
+{
+	
+}
+
+ol {
+	margin-left: 3em;
+}
+
+ol li {
+}
+
+/*
+a {
+	color: #0000ff;
+}
+*/
+a:hover {
+	text-decoration: underline:
+}
+
+img {
+	border: none;
+}
+
+img.left {
+	float: left;
+	margin: .35em 1em 1em 0;
+}
+
+img.right {
+	float: right;
+	margin: .35em 0 1em 1em;
+}
+
+.bodyh3 
+{
+	color: black;
+}
+
+.bodyul 
+{
+	color: black;
+	font-size: small; 
+}
+
+.bodyeditlabel
+{
+	color: #048C07;
+}
+
+.boxed {
+	margin-bottom: 20px;
+}
+
+.boxed .title {
+	height: 25px;
+	padding: 5px 0 0 15px;
+	font-size: 1.2em;
+	font-weight: bold;
+	color: black;
+}
+
+.boxed .content {
+	padding: 15px;
+	border: 1px solid #FFFFFF;
+}
+
+.headertext {
+	font-size: x-small;
+	font-style: italic;
+	color: white;
+}
+
+.indent 
+{
+	padding-left: 30px;
+}
+
+.ogms {
+	height: 25px;
+	padding: 5px 0 10px 30px;
+	font-size: x-large;
+	font-weight: bold;
+	color: black;
+}
+
+.post {
+	padding: 1em 0 0 0;
+}
+
+.post .title {
+	color: black;
+}
+
+.post .date {
+	margin: -1.4em 0 .2em 0;
+	text-align: right;
+	font-size: 1em;
+}
+
+.post .date .month {
+}
+
+.post .date .day {
+}
+
+.post .date .year {
+}
+
+.post .meta p {
+	margin: 0;
+}
+
+.post .story {
+	padding: 1em;
+}
+
+.post .story p, .post .story blockquote, .post .story ul, .post .story ol {
+	line-height: 1.7em;
+}
+
+.textright
+{
+	text-align: right;
+}
+
+.checkboxtextmiddle
+{
+	vertical-align:top;
+}
+
+..col
+{
+	padding-right:10px;
+	padding-left:10px;
+}
+
+.headerlinks 
+{
+	font-size: small;
+	font-style: normal;
+	color: black;
+	text-decoration: none;
+}
+
+/*
+#continuelink 
+{
+	color: #503D3F;
+	font-size: small;
+	font-style: italic;
+	padding: 5px 0 5px 0;
+}
+*/
+
+#logo {
+	padding: 70px 0 70px 0;
+	background: url(images/LOGO_sm_139.gif) no-repeat center top; 
+	text-align: center;
+}
+
+#logo h1 {
+	text-transform: lowercase;
+	font-size: 2.6em;
+	font-weight: bold;
+	font-style: italic;
+}
+
+#logo h2 {
+	text-transform: lowercase;
+	font-size: 1em;
+	font-style: italic;
+}
+
+#logo a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+#content {
+}
+
+#extra {
+}
+
+#main {
+	margin: 0 0 0 200px;
+}
+
+#main a {
+}
+
+#welcome {
+}
+
+#example {
+}
+
+.bodynormal
+{
+	font: normal small Arial, Helvetica, sans-serif;
+}
+
+.tip
+{
+	font-size: x-small;
+	font-style: italic;
+	color: #003366;
+}
+
+.tiplink
+{
+	font-size: x-small;
+	font-style: italic;
+	color: #003366;
+	text-decoration: none;
+}
+
+.tiplink:hover
+{
+	font-size: x-small;
+	font-style: italic;
+	color: #003366;
+	text-decoration: underline;
+}
+
+.h3onwhite
+{
+	color: #003366;
+}
+
+#sidebar h3 {
+}
+
+#sidebar a {
+}
+
+#login {
+	padding-top: 20px;
+}
+
+#login form {
+}
+
+#login fieldset {
+	border: none;
+}
+
+#login legend {
+	display: none;
+}
+
+#login label {
+	font-size: x-small;
+	font-weight: bold;
+}
+
+#login input {
+	margin-bottom: 5px;
+	padding: 2px 5px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+#inputtext1, #inputtext2 {
+}
+
+#inputsubmit1 {
+	font-size: x-small;
+}
+
+#menu {
+}
+
+#menu .content {
+	border: 1px solid #FFFFFF;
+}
+
+#menu ul {
+	margin: 0;
+	list-style: none;
+}
+
+#menu li {
+	display: block;
+}
+
+#menu a {
+	display: block;
+	padding: 5px 0 5px 17px;
+	background: url(images/img05.gif) no-repeat left center;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#updates {
+}
+
+#updates ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#updates h3 {
+	font-size: small;
+}
+
+#updates p {
+	font-size: x-small;
+}
+
+#header p {
+	margin: 0;
+	text-align: right;
+	font-size: x-small;
+}
+
+.mGrid {    
+    width: 100%;    
+    background-color: #fff;    
+    margin: 5px 0 10px 0;    
+    border: solid 1px #525252;    
+    border-collapse:collapse;    
+}   
+.mGrid td {    
+    padding: 2px;    
+    border: solid 1px #c1c1c1;    
+    color: #717171;    
+}   
+.mGrid th {    
+    padding: 4px 2px;    
+    color: #fff;    
+    background: #424242 url(grd_head.png) repeat-x top;    
+    border-left: solid 1px #525252;    
+    font-size: 0.9em;    
+} 
+.mGrid th a{ color: White; text-decoration: underline; }  
+/*
+.mGrid .hdr { background: #ffffff url(grd_alt.png) repeat-x top;  }   
+*/
+.mGrid .alt { background: #fcfcfc url(grd_alt.png) repeat-x top; }   
+.mGrid .pgr { background: #424242 url(grd_pgr.png) repeat-x top; }   
+.mGrid .pgr table { margin: 5px 0; }   
+.mGrid .pgr td {    
+    border-width: 0;    
+    padding: 0 6px;    
+    border-left: solid 1px #666;    
+    font-weight: bold;    
+    color: #fff;    
+    line-height: 12px;    
+ }      
+.mGrid .pgr a { color: #666; text-decoration: none; }   
+.mGrid .pgr a:hover { color: #000; text-decoration: none; }  
