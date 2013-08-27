@@ -1,0 +1,6 @@
+gis_source: owri_pt, owri_ln, owri_poly
+mapper: Nicholas Hallahan OSU-NH
+gis_type: GIS Point Source, GIS Line Midpoint, GIS Polygon Centroid
+analysis_scale: 6th Field HUC
+
+

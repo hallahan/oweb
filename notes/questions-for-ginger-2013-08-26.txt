@@ -1,0 +1,7 @@
+In general, the layer accuracy precedence is: NAIP imagery, timber company maps (in terms of very small streams and unimproved roads), US Topo layer, wc_layers.
+  You mean that wc_layers is the best layer to use, correct?
+
+You only need to note the treatment comment and can shorten large wood placement to LWP if you would like. In the future don’t need to note 'from. . .' in the comment section
+  "From Shapefile" is not a useful note?
+
+What are the purple highlighted rows for on the new excel sheet?
