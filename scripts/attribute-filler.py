@@ -1,14 +1,14 @@
-TABLE_PATH        = r"E:\oweb\git\nh-database.gdb\OWRI\OWRI_polygons"
+TABLE_PATH        = r"C:\oweb\git\MappingTemplates_Hallahan_08262013.gdb\OWRI\OWRI_polygons"
 GIS_SOURCE        = "owri_poly"
-PROJECT_NBR       = "20120444"
-RI_PROJECT_ID     = "15467"
-ACTIVITY_TYPE     = "Riparian"
-TREATMENT_COMMENT = "Riparian treated for non-native or noxious plant species; Riparian trees planted: hardwood; Riparian shrubs or herbaceous vegetation planted/reseeded"
+PROJECT_NBR       = "20120231"
+RI_PROJECT_ID     = "15269"
+ACTIVITY_TYPE     = "Upland"
+TREATMENT_COMMENT = "treated for non-native or noxious plant species"
 MAPPER            = "OSU-NH"
 MAPPER_CONFIDENCE = "High"
 GIS_TYPE          = "GIS Polygon Centroid"
 ANALYSIS_SCALE    = "6th Field HUC"
-ORIGIN_DATE       = "7/20/2013"
+ORIGIN_DATE       = "8/30/2013"
 
 import arcpy
 rows = arcpy.UpdateCursor(TABLE_PATH)
