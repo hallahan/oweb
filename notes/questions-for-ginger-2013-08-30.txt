@@ -1,0 +1,13 @@
+In general, the layer accuracy precedence is: NAIP imagery, timber company maps (in terms of very small streams and unimproved roads), US Topo layer, wc_layers.
+  You mean that wc_layers is the best layer to use, correct?
+
+What are the purple highlighted rows for on the new excel sheet?
+
+===============================================
+http://apps.wrd.state.or.us/apps/oweb/owrio/viewall.aspx?p=15287
+
+For Project 15287, we are provided a large set of points in a Shapefile. The data is quite extensive. It is all weed treatment points. The activity types for these treatments on the report are: riparian, upland, and wetland. The points, however, are not specifically categorized.
+
+Should we ask the respondent to do this? I could probably specify a buffer around the streams and categorize points as riparian within the buffer. The question of to designiate the other points as upland or wetland is questionable. I could find some data that categorizes land types as wetland or not and check for intesection.
+
+Would you like this?
