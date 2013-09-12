@@ -1,0 +1,3 @@
+git filter-branch --force --index-filter \
+  'git rm --cached --ignore-unmatch project-info/15713.zip' \
+  --prune-empty --tag-name-filter cat -- --all
