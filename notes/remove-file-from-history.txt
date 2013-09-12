@@ -1,3 +1,7 @@
 git filter-branch --force --index-filter \
-  'git rm --cached --ignore-unmatch project-info/15713.zip' \
+  'git rm --cached --ignore-unmatch project-info/15713/15713/15713.pdf' \
+  --prune-empty --tag-name-filter cat -- --all
+
+git filter-branch --force --index-filter \
+  'git rm --cached --ignore-unmatch project-info/15713/15713/sg_app_w_map.pdf' \
   --prune-empty --tag-name-filter cat -- --all
